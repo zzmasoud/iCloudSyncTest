@@ -11,8 +11,9 @@
 		049884762AF12CA1007456AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049884752AF12CA1007456AF /* ContentView.swift */; };
 		049884782AF12CA2007456AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049884772AF12CA2007456AF /* Assets.xcassets */; };
 		0498847B2AF12CA2007456AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0498847A2AF12CA2007456AF /* Preview Assets.xcassets */; };
-		0498847D2AF12CA2007456AF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498847C2AF12CA2007456AF /* Persistence.swift */; };
+		0498847D2AF12CA2007456AF /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498847C2AF12CA2007456AF /* CoreDataStore.swift */; };
 		049884802AF12CA2007456AF /* iCloudSyncTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0498847E2AF12CA2007456AF /* iCloudSyncTest.xcdatamodeld */; };
+		049884892AF12EEC007456AF /* PLEASE_CHANGE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049884882AF12EEC007456AF /* PLEASE_CHANGE.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,10 +22,11 @@
 		049884752AF12CA1007456AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		049884772AF12CA2007456AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0498847A2AF12CA2007456AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0498847C2AF12CA2007456AF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		0498847C2AF12CA2007456AF /* CoreDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
 		0498847F2AF12CA2007456AF /* iCloudSyncTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iCloudSyncTest.xcdatamodel; sourceTree = "<group>"; };
 		049884812AF12CA2007456AF /* iCloudSyncTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iCloudSyncTest.entitlements; sourceTree = "<group>"; };
 		049884822AF12CA2007456AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049884882AF12EEC007456AF /* PLEASE_CHANGE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLEASE_CHANGE.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +62,12 @@
 				049884732AF12CA1007456AF /* iCloudSyncTestApp.swift */,
 				049884752AF12CA1007456AF /* ContentView.swift */,
 				049884772AF12CA2007456AF /* Assets.xcassets */,
-				0498847C2AF12CA2007456AF /* Persistence.swift */,
+				0498847C2AF12CA2007456AF /* CoreDataStore.swift */,
 				049884812AF12CA2007456AF /* iCloudSyncTest.entitlements */,
 				049884822AF12CA2007456AF /* Info.plist */,
 				0498847E2AF12CA2007456AF /* iCloudSyncTest.xcdatamodeld */,
 				049884792AF12CA2007456AF /* Preview Content */,
+				049884882AF12EEC007456AF /* PLEASE_CHANGE.swift */,
 			);
 			path = iCloudSyncTest;
 			sourceTree = "<group>";
@@ -148,7 +151,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				049884802AF12CA2007456AF /* iCloudSyncTest.xcdatamodeld in Sources */,
-				0498847D2AF12CA2007456AF /* Persistence.swift in Sources */,
+				0498847D2AF12CA2007456AF /* CoreDataStore.swift in Sources */,
+				049884892AF12EEC007456AF /* PLEASE_CHANGE.swift in Sources */,
 				049884762AF12CA1007456AF /* ContentView.swift in Sources */,
 				049884742AF12CA1007456AF /* iCloudSyncTestApp.swift in Sources */,
 			);
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iCloudSyncTest/Preview Content\"";
+				DEVELOPMENT_TEAM = R247K7BZAZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iCloudSyncTest/Info.plist;
@@ -315,6 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iCloudSyncTest/Preview Content\"";
+				DEVELOPMENT_TEAM = R247K7BZAZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iCloudSyncTest/Info.plist;
