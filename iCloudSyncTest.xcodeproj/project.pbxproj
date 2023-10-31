@@ -14,7 +14,39 @@
 		0498847D2AF12CA2007456AF /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498847C2AF12CA2007456AF /* CoreDataStore.swift */; };
 		049884802AF12CA2007456AF /* iCloudSyncTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0498847E2AF12CA2007456AF /* iCloudSyncTest.xcdatamodeld */; };
 		049884892AF12EEC007456AF /* PLEASE_CHANGE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049884882AF12EEC007456AF /* PLEASE_CHANGE.swift */; };
+		049884912AF13025007456AF /* iCloudSyncTestWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049884902AF13025007456AF /* iCloudSyncTestWatchApp.swift */; };
+		049884952AF13026007456AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049884942AF13026007456AF /* Assets.xcassets */; };
+		049884982AF13026007456AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049884972AF13026007456AF /* Preview Assets.xcassets */; };
+		0498849B2AF13026007456AF /* iCloudSyncTestWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0498848E2AF13025007456AF /* iCloudSyncTestWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		049884A22AF13067007456AF /* PLEASE_CHANGE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049884882AF12EEC007456AF /* PLEASE_CHANGE.swift */; };
+		049884A32AF1309E007456AF /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498847C2AF12CA2007456AF /* CoreDataStore.swift */; };
+		049884A42AF130B2007456AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049884752AF12CA1007456AF /* ContentView.swift */; };
+		049884A62AF130F3007456AF /* iCloudSyncTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0498847E2AF12CA2007456AF /* iCloudSyncTest.xcdatamodeld */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		049884992AF13026007456AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049884682AF12CA1007456AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0498848D2AF13025007456AF;
+			remoteInfo = "iCloudSyncTestWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0498849F2AF13026007456AF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0498849B2AF13026007456AF /* iCloudSyncTestWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		049884702AF12CA1007456AF /* iCloudSyncTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCloudSyncTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,10 +59,23 @@
 		049884812AF12CA2007456AF /* iCloudSyncTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iCloudSyncTest.entitlements; sourceTree = "<group>"; };
 		049884822AF12CA2007456AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049884882AF12EEC007456AF /* PLEASE_CHANGE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLEASE_CHANGE.swift; sourceTree = "<group>"; };
+		0498848E2AF13025007456AF /* iCloudSyncTestWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iCloudSyncTestWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		049884902AF13025007456AF /* iCloudSyncTestWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudSyncTestWatchApp.swift; sourceTree = "<group>"; };
+		049884942AF13026007456AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049884972AF13026007456AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		049884A02AF13036007456AF /* iCloudSyncTestWatch-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "iCloudSyncTestWatch-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		049884A12AF1304B007456AF /* iCloudSyncTestWatch Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iCloudSyncTestWatch Watch App.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0498846D2AF12CA1007456AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0498848B2AF13025007456AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,7 +88,9 @@
 		049884672AF12CA1007456AF = {
 			isa = PBXGroup;
 			children = (
+				049884882AF12EEC007456AF /* PLEASE_CHANGE.swift */,
 				049884722AF12CA1007456AF /* iCloudSyncTest */,
+				0498848F2AF13025007456AF /* iCloudSyncTestWatch Watch App */,
 				049884712AF12CA1007456AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				049884702AF12CA1007456AF /* iCloudSyncTest.app */,
+				0498848E2AF13025007456AF /* iCloudSyncTestWatch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,7 +115,6 @@
 				049884822AF12CA2007456AF /* Info.plist */,
 				0498847E2AF12CA2007456AF /* iCloudSyncTest.xcdatamodeld */,
 				049884792AF12CA2007456AF /* Preview Content */,
-				049884882AF12EEC007456AF /* PLEASE_CHANGE.swift */,
 			);
 			path = iCloudSyncTest;
 			sourceTree = "<group>";
@@ -76,6 +123,26 @@
 			isa = PBXGroup;
 			children = (
 				0498847A2AF12CA2007456AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0498848F2AF13025007456AF /* iCloudSyncTestWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				049884A12AF1304B007456AF /* iCloudSyncTestWatch Watch App.entitlements */,
+				049884A02AF13036007456AF /* iCloudSyncTestWatch-Watch-App-Info.plist */,
+				049884902AF13025007456AF /* iCloudSyncTestWatchApp.swift */,
+				049884942AF13026007456AF /* Assets.xcassets */,
+				049884962AF13026007456AF /* Preview Content */,
+			);
+			path = "iCloudSyncTestWatch Watch App";
+			sourceTree = "<group>";
+		};
+		049884962AF13026007456AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				049884972AF13026007456AF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -90,14 +157,33 @@
 				0498846C2AF12CA1007456AF /* Sources */,
 				0498846D2AF12CA1007456AF /* Frameworks */,
 				0498846E2AF12CA1007456AF /* Resources */,
+				0498849F2AF13026007456AF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0498849A2AF13026007456AF /* PBXTargetDependency */,
+			);
+			name = iCloudSyncTest;
+			productName = iCloudSyncTest;
+			productReference = 049884702AF12CA1007456AF /* iCloudSyncTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0498848D2AF13025007456AF /* iCloudSyncTestWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0498849C2AF13026007456AF /* Build configuration list for PBXNativeTarget "iCloudSyncTestWatch Watch App" */;
+			buildPhases = (
+				0498848A2AF13025007456AF /* Sources */,
+				0498848B2AF13025007456AF /* Frameworks */,
+				0498848C2AF13025007456AF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = iCloudSyncTest;
-			productName = iCloudSyncTest;
-			productReference = 049884702AF12CA1007456AF /* iCloudSyncTest.app */;
+			name = "iCloudSyncTestWatch Watch App";
+			productName = "iCloudSyncTestWatch Watch App";
+			productReference = 0498848E2AF13025007456AF /* iCloudSyncTestWatch Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,6 +197,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					0498846F2AF12CA1007456AF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					0498848D2AF13025007456AF = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -129,6 +218,7 @@
 			projectRoot = "";
 			targets = (
 				0498846F2AF12CA1007456AF /* iCloudSyncTest */,
+				0498848D2AF13025007456AF /* iCloudSyncTestWatch Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -140,6 +230,15 @@
 			files = (
 				0498847B2AF12CA2007456AF /* Preview Assets.xcassets in Resources */,
 				049884782AF12CA2007456AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0498848C2AF13025007456AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049884982AF13026007456AF /* Preview Assets.xcassets in Resources */,
+				049884952AF13026007456AF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +257,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0498848A2AF13025007456AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049884A42AF130B2007456AF /* ContentView.swift in Sources */,
+				049884A22AF13067007456AF /* PLEASE_CHANGE.swift in Sources */,
+				049884A32AF1309E007456AF /* CoreDataStore.swift in Sources */,
+				049884A62AF130F3007456AF /* iCloudSyncTest.xcdatamodeld in Sources */,
+				049884912AF13025007456AF /* iCloudSyncTestWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0498849A2AF13026007456AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0498848D2AF13025007456AF /* iCloudSyncTestWatch Watch App */;
+			targetProxy = 049884992AF13026007456AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		049884832AF12CA2007456AF /* Debug */ = {
@@ -283,6 +402,7 @@
 		049884862AF12CA2007456AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = iCloudSyncTest/iCloudSyncTest.entitlements;
@@ -314,6 +434,7 @@
 		049884872AF12CA2007456AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = iCloudSyncTest/iCloudSyncTest.entitlements;
@@ -342,6 +463,70 @@
 			};
 			name = Release;
 		};
+		0498849D2AF13026007456AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "iCloudSyncTestWatch Watch App/iCloudSyncTestWatch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iCloudSyncTestWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = R247K7BZAZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iCloudSyncTestWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = iCloudSyncTestWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.zz.iCloudSyncTest;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zz.iCloudSyncTest.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		0498849E2AF13026007456AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "iCloudSyncTestWatch Watch App/iCloudSyncTestWatch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iCloudSyncTestWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = R247K7BZAZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iCloudSyncTestWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = iCloudSyncTestWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.zz.iCloudSyncTest;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zz.iCloudSyncTest.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -359,6 +544,15 @@
 			buildConfigurations = (
 				049884862AF12CA2007456AF /* Debug */,
 				049884872AF12CA2007456AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0498849C2AF13026007456AF /* Build configuration list for PBXNativeTarget "iCloudSyncTestWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0498849D2AF13026007456AF /* Debug */,
+				0498849E2AF13026007456AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
